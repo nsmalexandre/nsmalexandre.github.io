@@ -244,7 +244,7 @@ a.linkhome:link {
 
 /* visited link */
 a.linkhome:visited {
-  color: #ffffff;
+  color: white;
 }
 
 /* mouse over link */
@@ -451,7 +451,7 @@ color:white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30%;
+  margin-top: 45%;
 }
 
 .barra {
@@ -468,7 +468,7 @@ a.linkhome:link {
 }
 
 a.linkcont:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -478,7 +478,7 @@ a.linkcont:link {
 }
 
 a.linkabout:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -496,7 +496,7 @@ a.linkabout:link {
 [class*='parrot'] {
   display: none;
 }
-	
+
 .caixa {
   background-color: transparent;
   margin-top: 0;
@@ -507,5 +507,4 @@ a.linkabout:link {
   height: auto;
 }
 
-	
 }
