@@ -496,5 +496,17 @@ a.linkabout:link {
 [class*='parrot'] {
   display: none;
 }
+	
+.caixa {
+  background-color: transparent;
+  margin-top: 0;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border: solid yellow;
+}
 
+	
 }
