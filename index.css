@@ -1,0 +1,500 @@
+/* -----------------------FONT--------------------------*/
+@font-face {
+  font-family: 'Michroma', sans-serif;
+}
+
+
+/*------------LOADING-------*/
+div.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.7s;
+}
+
+div.loading.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+div.loading img {
+  width: 900px;
+  animation: rotate 1s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+
+}
+
+/*-------------FOOTER-----------*/
+
+.footer {
+  position: relative;
+  bottom: 0;
+  padding-bottom: 0; 
+  font-size: 0.3em;
+  width: 70%;
+  margin: auto;
+  background-color: transparent;
+  color: white;
+  text-align: center; 
+  font-family: 'Michroma', sans-serif;
+  opacity: 0.7;
+}
+
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
+
+body {
+  background-color: black;
+}
+
+/*------------INICIOGRELHACSS-------------*/
+
+.container {
+  background-color: transparent;
+  width: 97%;
+  min-width: 200px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.caixa {
+  background-color: transparent;
+  margin-top: 0;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 664px;
+  height: 490px;
+}
+
+.caixa:hover {
+  transition-duration: .24s;
+  opacity:0.5;
+  /* angle */
+  -ms-transform: skewX(-6deg); /* IE 9 */
+  -webkit-transform: skewX(-6deg); /* Safari */
+          transform: skewX(-6deg);
+}
+
+.caixa:hover span:after {
+  width: 100%;
+}
+
+/*----- IMG1 -----*/
+.img1 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG2 -----*/
+.img2 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*----- IMG3 -----*/
+.img3 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG4 -----*/
+.img4 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG5 -----*/
+.img5 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG6 -----*/
+.img6 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG7 -----*/
+.img7 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+
+/*----- IMG8 -----*/
+.img8 {
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+}
+/*-----------------FIMGRELHACSS-----------------------*/
+
+
+/* --------------------LINKSDABARRA-------------------*/
+
+.barra {
+	top: 5%;
+	left: 3%;
+	right: 3%;
+	position: fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+/* ----------------------LINKHOME---------------------*/
+/* unvisited link */
+a.linkhome:link {
+  font-size: 0.7em;
+  text-align: left; 
+  text-decoration: none;
+  display: flex;
+  clear: left;
+  float:left;
+  font-family: 'Michroma', sans-serif;
+}
+
+/* visited link */
+a.linkhome:visited {
+  color: white;
+}
+
+/* mouse over link */
+a.linkhome:hover {
+  /*text-decoration: underline;*/
+  /* angle */
+  -ms-transform: skewX(-30deg); /* IE 9 */
+  -webkit-transform: skewX(-30deg); /* Safari */
+   transform: skewX(-30deg);
+
+}
+/* ----------------LINKCONTACT-------------------------*/
+/* unvisited link */
+a.linkcont:link {
+  font-size: 0.7em;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  width: auto;
+  float: right;
+  position: relative;
+  padding-right: 2%;
+  font-family: 'Michroma', sans-serif;
+}
+
+/* visited link */
+a.linkcont:visited {
+  color: white;
+}
+
+/* mouse over link */
+a.linkcont:hover {
+  /*text-decoration: underline;*/
+  /* angle */
+  -ms-transform: skewX(-30deg); /* IE 9 */
+  -webkit-transform: skewX(-30deg); /* Safari */
+   transform: skewX(-30deg);
+
+}
+
+/* ----------------LINKABOUT---------------------------*/
+/* unvisited link */
+a.linkabout:link {
+  font-size: 0.7em;
+  color: white;
+  width: auto;
+  text-decoration: none;
+  display: flex;
+  float: right;
+  position: relative;
+  font-family: 'Michroma', sans-serif;
+}
+
+/* visited link */
+a.linkabout:visited {
+  color: white;
+}
+
+/* mouse over link */
+a.linkabout:hover {
+  /*text-decoration: underline;*/
+  /* angle */
+  -ms-transform: skewX(-30deg); /* IE 9 */
+  -webkit-transform: skewX(-30deg); /* Safari */
+   transform: skewX(-30deg);
+
+}
+
+/*--------------------CURSOR ADDAPT FROM Party Parrot Conga Cursor Trail by Desiree S at CodePen.io------------------*/
+
+/* forked from https://codepen.io/shorelle/pen/NvpRLM */
+
+[class*='parrot'] {
+  position: absolute;
+  display: block;
+  height: 28px;
+  width: 28px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.parrot-1 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-2 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-3 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-4 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-5 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-6 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-7 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-8 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-9 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-10 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-11 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+.parrot-12 {
+  background-image: url(images/cursor.svg);
+  z-index: 12;
+}
+
+/*--------------Back-to-top by CodyHouse.co — Copyright (c) 2011-2019 Amber Creative Lab, Ltd.------------*/
+
+.cd-top {
+position: fixed;
+cursor: pointer;
+text-decoration: none;
+color: white;
+overflow: hidden;
+visibility: hidden;
+opacity: 0;
+right: 20px;
+bottom: 20px;
+-webkit-transition: opacity .6s 0s, visibility 0s .3s, background-color .3s 0s;
+transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+
+}
+
+.cd-top.cd-top--show,
+.cd-top.cd-top--fade-out {
+-webkit-transition: opacity .6s 0s, visibility 0s 0s, background-color .3s 0s;
+transition: opacity .6s 0s, visibility 0s 0s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show {
+/* the button becomes visible */
+visibility: visible;
+opacity: 1;
+color:white;
+}
+
+.cd-top.cd-top--fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .cd-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cd-top {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.container {
+  background-color: transparent;
+  width: 95%;
+  min-width: 200px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30%;
+}
+
+.barra {
+  top: 5%;
+  left: 6%;
+  right: 6%;
+}
+
+a.linkhome:link {
+  font-size: 0.8em;
+  text-align: left; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.linkcont:link {
+  font-size: 0.8em;
+  text-align: left; 
+  text-decoration: none;
+  display: inline-block;
+  float:left;
+  padding-left: 3%;
+  margin-top: 2%;
+}
+
+a.linkabout:link {
+  font-size: 0.8em;
+  text-align: left; 
+  text-decoration: none;
+  display: inline-block;
+  clear: left;
+  float:left;
+  margin-top: 2%
+}
+
+.footer {
+  font-size: 0.3em;
+  text-align: center;
+  width: 100%;
+}
+
+[class*='parrot'] {
+  display: none;
+}
+
+}
