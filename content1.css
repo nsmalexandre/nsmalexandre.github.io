@@ -250,7 +250,7 @@ height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30%;
+  margin-top: 45%;
 }
 
 .barra {
@@ -267,7 +267,7 @@ a.linkhome:link {
 }
 
 a.linkcont:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -277,7 +277,7 @@ a.linkcont:link {
 }
 
 a.linkabout:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -293,7 +293,6 @@ a.linkabout:link {
   padding-bottom: 1%;
   left: 0;
   bottom: 0;
-  position: relative;
 }
 
 .texto {
@@ -307,11 +306,12 @@ a.linkabout:link {
 }
 
 p.text {
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-align: center;
-  float:left;
   padding-left: 3%;
   padding-right: 3%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 p.text1 {
@@ -320,6 +320,8 @@ p.text1 {
   padding-right: 3%;
   text-align: center;
   line-height: 1.2em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* visited link */
