@@ -241,7 +241,7 @@ a.linkabout:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30%;
+  margin-top: 35%;
 }
 
 .barra {
@@ -258,7 +258,7 @@ a.linkhome:link {
 }
 
 a.linkcont:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -268,7 +268,7 @@ a.linkcont:link {
 }
 
 a.linkabout:link {
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left; 
   text-decoration: none;
   display: inline-block;
@@ -283,6 +283,8 @@ a.linkabout:link {
   width: 100%;
   padding-bottom: 1%;
   left: 0;
+  bottom: 0;
+  position: absolute;
 }
 
 .texto {
@@ -297,7 +299,7 @@ a.linkabout:link {
 }
 
 p.text {
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-align: center;
   float:left;
   padding-left: 3%;
@@ -305,16 +307,18 @@ p.text {
 }
 
 p.text1 {
-  font-size: 0.7em;
+  font-size: 0.5em;
   margin-left: 3%;
+  margin-right: 3%;
   text-align: left;
   line-height: 1.4em;
   padding-bottom: 5%;
 }
 
 p.text11 {
-  font-size: 0.7em;
+  font-size: 0.5em;
   margin-left: 3%;
+  margin-right: 3%;
   text-align: left;
   line-height: 1.4em;
 }
@@ -322,6 +326,7 @@ p.text11 {
 /* visited link */
 a.email:visited {
   padding-left: 3%;
+  margin-right: 3%;
   text-align: left;
   left: 0;
 
